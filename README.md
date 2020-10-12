@@ -1,4 +1,4 @@
-#Goco client template
+# Goco client template
 
 `yarn start` to start the project
 
