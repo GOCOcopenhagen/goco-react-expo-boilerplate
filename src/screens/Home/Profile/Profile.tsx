@@ -4,13 +4,12 @@ import * as React from 'react'
 import { Button, Text } from 'react-native'
 import { useDispatch, useSelector } from 'react-redux'
 
+import ExampleCircle from '../../../../assets/examplecircle.svg'
 import { BlueButton } from '../../../components/atoms/BlueButton'
 import Container from '../../../components/atoms/Container'
 import { Dispatch, RootState } from '../../../state/store'
 import { navigate } from '../../../utils/navigationRef'
 import { HomeStackParams } from '../HomeStackParams'
-
-import ExampleCircle from '../../../../assets/examplecircle.svg'
 
 type ScreenRouteProp = RouteProp<HomeStackParams, 'Profile'>
 type ScreenNavigationProp = StackNavigationProp<HomeStackParams, 'Profile'>

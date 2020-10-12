@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Fixer",
-    "slug": "Fixer",
+    "name": "Goco-client-template",
+    "slug": "template.goco",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
