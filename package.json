@@ -1,11 +1,11 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject"
+    "start": "npx expo start",
+    "android": "npx expo start --android",
+    "ios": "npx expo start --ios",
+    "web": "npx expo start --web",
+    "eject": "npx expo eject"
   },
   "dependencies": {
     "@react-native-community/async-storage": "~1.12.0",
@@ -15,6 +15,7 @@
     "@rematch/core": "^1.4.0",
     "@rematch/persist": "^1.1.6",
     "expo": "^39.0.0",
+    "expo-cli": "^3.27.14",
     "expo-status-bar": "~1.0.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
