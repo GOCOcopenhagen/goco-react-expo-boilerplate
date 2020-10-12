@@ -1,0 +1,24 @@
+import { RouteProp } from '@react-navigation/native'
+import { StackNavigationProp } from '@react-navigation/stack'
+import * as React from 'react'
+import { WelcomeStackParams } from 'screens/SignUp/WelcomeStackParams'
+import colors from "globals/colors";
+import styled from "styled-components/native";
+
+type ScreenRouteProp = RouteProp<WelcomeStackParams, 'WelcomeScreen'>
+type ScreenNavigationProp = StackNavigationProp<WelcomeStackParams, 'WelcomeScreen'>
+
+type Props = {
+    route: ScreenRouteProp
+    navigation: ScreenNavigationProp
+}
+
+const : React.FC<Props> = (p) => {
+    return (
+        <>
+
+        </>
+    )
+}
+
+export default
