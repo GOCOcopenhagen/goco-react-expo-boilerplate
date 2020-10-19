@@ -13,7 +13,7 @@ type Props = {
     navigation: ScreenNavigationProp
 }
 
-const Settings: React.FC<Props> = (p) => {
+const Settings: React.FC<Props> = () => {
 
     return (
         <Container background="white">

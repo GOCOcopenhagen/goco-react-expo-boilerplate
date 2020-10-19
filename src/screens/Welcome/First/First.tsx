@@ -15,7 +15,7 @@ type Props = {
     navigation: ScreenNavigationProp
 }
 
-const First: React.FC<Props> = (p) => {
+const First: React.FC<Props> = () => {
     return (
         <Container background={colors.red}>
             <Text>Welcome</Text>
