@@ -1,8 +1,11 @@
 # Goco client template
 
-`yarn start` to start the project
+`npm i` to install the project
 
-## components
+
+`npm run start` to start the project
+
+## Components
  - ALL Components must be in a file that starts with a capital letter
  - atoms should be files that are purely styled components 
  - molecules are components that are small, but contain more than just styled components
