@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Goco-client-template",
-    "slug": "template.goco",
+    "name": "goco-boilerplate-client",
+    "slug": "goco-boilerplate-client",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

@@ -9,7 +9,7 @@ type Props = {
 const ContainerView = styled.View<{background?: string}>`
     height: 100%;
     width: 100%;
-    background: ${(props) => { return (props.background) ? props.background : 'white' }};
+    background: ${(props: { background: any }) => { return (props.background) ? props.background : 'white' }};
 `
 
 const Container: React.FC<Props> = ({ children, background }) => {
