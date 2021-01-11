@@ -10,6 +10,7 @@
         "amplify-push": "node amplify/scripts/amplify-push.js"
     },
     "dependencies": {
+        "@aws-amplify/datastore": "^2.9.3",
         "@react-native-community/masked-view": "0.1.10",
         "@react-native-community/netinfo": "^5.9.10",
         "@react-navigation/native": "^5.7.3",
