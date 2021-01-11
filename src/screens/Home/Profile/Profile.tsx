@@ -18,6 +18,7 @@ type Props = {
 
 const Profile: React.FC<Props> = (p) => {
 
+
     return (
         <Container background="white">
             <Button title="hej" onPress={() => console.log("hi")} />
