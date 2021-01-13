@@ -1,17 +1,17 @@
-# GOGOO
+# Project level description
 
+Expo app using Expo 40.* and AWS Amplify Datastore.
 
-## Technical setup
-#### Engine: `v12.16.*`
-#### React-version `=<16.8`
-#### AWS CLI `2`
-#### npm `6.14.*`
-#### amplify cli `~4.27.2`
+## Backend - Basic DataStore
+Open the GraphQL schema in the amplify/backend/api/datasourcename/schema.graphql. You can use the sample or the one below that will be used in this example:
 
-
-`npm i` to install the project
-
-`npm run start` to start the project
+```graphql
+type Click @model {
+  id: ID!
+  time: Int!
+}
+```
+See more here: [Datastore example](https://github.com/dabit3/amplify-datastore-example/blob/master/README.md)
 
 # GOCO - Handbook 📚
 
@@ -102,3 +102,16 @@ When merging the development branch into the staging/production environment, you
 
 ## Security 🛡
 Never ever include any .env files, api keys or equivalent.
+
+
+## Technical setup
+#### Engine: `v12.16.*`
+#### React-version `=<16.8`
+#### AWS CLI `2`
+#### npm `6.14.*`
+#### amplify cli `~4.27.2`
+
+
+`npm i` to install the project
+
+`npm run start` to start the project
