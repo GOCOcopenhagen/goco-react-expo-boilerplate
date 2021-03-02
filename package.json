@@ -9,7 +9,7 @@
         "amplify-modelgen": "node amplify/scripts/amplify-modelgen.js",
         "amplify-push": "node amplify/scripts/amplify-push.js"
     },
-    "missing":"@types/styled-components-react-native",
+    "missing": "@types/styled-components-react-native",
     "dependencies": {
         "@aws-amplify/datastore": "^2.9.3",
         "@react-native-community/masked-view": "0.1.10",
