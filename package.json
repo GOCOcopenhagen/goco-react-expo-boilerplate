@@ -5,19 +5,15 @@
         "android": "npx expo start --android",
         "ios": "npx expo start --ios",
         "web": "npx expo start --web",
-        "eject": "npx expo eject",
-        "amplify-modelgen": "node amplify/scripts/amplify-modelgen.js",
-        "amplify-push": "node amplify/scripts/amplify-push.js"
+        "eject": "npx expo eject"
     },
     "missing": "@types/styled-components-react-native",
     "dependencies": {
-        "@aws-amplify/datastore": "^2.9.3",
         "@react-native-community/masked-view": "0.1.10",
         "@react-native-community/netinfo": "^5.9.10",
         "@react-navigation/native": "^5.7.3",
         "@react-navigation/stack": "^5.9.0",
         "expo": "^40.0.0",
-        "expo-cli": "^3.27.14",
         "expo-status-bar": "~1.0.3",
         "only": "0.0.2",
         "react": "16.13.1",

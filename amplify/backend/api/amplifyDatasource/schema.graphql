@@ -1,5 +1,0 @@
-
-type Click @model {
-  id: ID!
-  epocTime: Int!
-}
