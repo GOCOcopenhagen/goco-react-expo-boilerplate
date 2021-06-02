@@ -1,3 +1,1 @@
-export const colors = {
-    red: '#F00'
-}
+export const primary = '#000000'
